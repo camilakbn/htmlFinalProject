@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LSN Extensões</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!--a cliente quer o site com tons de dourado, rosa e verde-->
+    <!--criar uma api para ativar e automaticamente enviar uma copia para o remetente e para os destinatarios-->
+    <!--a cliente quer que quando a pessoa entre no site e se sinta uma princesa, e que as cabeleireiras querem mimar a cliente-->
+    <!--criar uma logo para elas-->
+    <!--Elementos: site institucional, contatos + equipa, produtos + serviços, testemunhos, form contatos, redes sociais-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/88d46a9fad.js" crossorigin="anonymous"></script>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html" class="active" target="_self">INÍCIO</a></li>
+            <li><a href="about.html" class="active" target="_self">SOBRE NÓS</a></li>
+            <li><a href="service.html" class="active" target="_self">SERVIÇOS</a></li>
+            <li><a href="testimonial.html" class="active" target="_self">TESTEMUNHOS</a></li>
+            <li><a href="contact.html" class="active" target="_self">CONTATOS</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="contact">
+            <div class="formulario">
+                <article>
+                    <h2>CONTACTOS</h2>
+                    <section>
+                        <form action="cabelos-e-extensoes@sapo.pt">
+                            <label for="nome">
+                                <input type="text" name="nome" required maxlenght="100" placeholder="Nome">
+                            </label><br><br>
+                            <label for="email">
+                                <div class="linha">
+                                    <input type="tel" name="telefone" placeholder="Telefone" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
+                            </label><br>
+                            <label for="assunto" placeholder="assunto">
+                                <select name="assunto">
+                                    <option value="assunto">Assunto</option>
+                                    <option value="marcacao">Marcação</option>
+                                    <option value="informacao">Pedido de informação</option>
+                                    <option value="negocios">Negócios</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </label><br><br>
+                            <label for="sobre">
+                                <textarea name="sobre" cols="80" rows="4" required maxlenght="90"
+                                    placeholder="A sua mensagem"></textarea>
+                            </label><br><br>
+                            <div class="buttons">
+                                <input type="submit" class="button" value="ENVIAR">
+                                <input type="reset" class="button" value="CANCELAR">
+                            </div>
+                        </form>
+                    </section>
+                </article>
+            </div>
+            <div class="contatos">
+                <div class="telefone">
+                    <p><i class="fa-solid fa-mobile"></i></i><strong>Telefone:</strong></p>
+                    <p>22 201 6056</p>
+                </div>
+                <div class="email">
+                    <p><i class="fa-solid fa-envelope"></i><strong>Email:</strong></p>
+                    <p>cabelos-e-extensoes@sapo.pt</p>
+                </div>
+                <div class="endereco">
+                    <p><i class="fa-solid fa-address-book"></i><strong>Endereço:</strong></p>
+                    <p>Av. Manuel Pinto de Azevedo 548, 4460-360 Matosinhos</p>
+                </div>
+                <div class="horarios">
+                    <p><i class="fa-solid fa-clock"></i><strong>Horários:</strong></p>
+                    <p>Segunda a Sexta: 09:30 às 18:30</p>
+                </div>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.5833963062923!2d-8.650612524312281!3d41.18725297132594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465e54424887d%3A0x7e228df083d8f1db!2sAv.%20Manuel%20Pinto%20de%20Azevedo%20548%2C%204460-360%20Sra.%20da%20Hora!5e0!3m2!1spt-PT!2spt!4v1786030351559!5m2!1spt-PT!2spt"
+                        width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br><br>
+    <footer>
+        <div class="copyright">
+            <p>© 2026 LSN Extensões - Todos os direitos reservados</p>
+        </div>
+
+        <div class="logo-footer">
+            <img src="img/logoMini.jpg" alt="logo da LSN em miniatura" class="logo-mini">
+        </div>
+
+        <div class="social-media">
+            <p>Siga-nos nas redes sociais!</p>
+            <a href="https://www.instagram.com/lsnextensoes" target="_blank">
+                <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/p/Lsn-Cabelo-e-Extensões-Lda-100052053475826/?locale=pt_PT"
+                target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
